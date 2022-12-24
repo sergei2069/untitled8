@@ -1,9 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("LP");
-        System.out.println("WP");
-        System.out.println("HP");
+      // задание 1
+
+        for (int i = 10; i >= 1; i = i - 1) {
+            System.out.println(+i);
+
+
+            for (int i = 0; i <= 10; i = i + 1) {
+                System .out .println( +i);
+
+
+            }
+        }
+
     }
 }
-
 
